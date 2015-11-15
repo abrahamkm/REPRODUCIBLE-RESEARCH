@@ -1,0 +1,58 @@
+REP RESEARCH PEER ASSIGNMENT 01
+Abraham Kandathil
+
+15 November 2015
+
+Loading the libraries and data from the working directory
+activity<-read.csv("activity.csv", header = TRUE)
+Mean total number of steps taken per day
+(ignoring the missing values in the dataset)
+
+Calculating the total number of steps taken per day
+
+Histogram of the total number of steps taken each day
+
+Computing mean and median of the total number of steps taken per day
+
+
+
+Mean of the total number of steps taken per day
+## [1] 9354.23
+Median of the total number of steps taken per day
+## [1] 10395
+Average daily activity pattern
+Time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
+
+Finding 5-minute interval, on average across all the days in the dataset, containing the maximum number of steps
+
+
+
+Maximum value of steps taken and time interval in which maximum value is attaned
+## [1] 179.1311
+## [1] 104
+Imputing missing values
+Calculating and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
+
+Strategy for filling in all of the missing values in the dataset is to use the mean for that 5-minute interval.
+
+Creating a new dataset that is equal to the original dataset but with the missing data filled in.
+
+Making a histogram of the total number of steps taken each day
+
+Calculating and reporting the mean and median total number of steps taken per day.
+
+No. of cases with NA values
+## [1] 2304
+
+
+New Mean of the steps taken
+## [1] 10580.72
+New Median of the steps taken
+## [1] 10395
+The Mean has changed with inputting for the missing values while the Median has stayed the same.
+
+Differences in activity patterns between weekdays and weekends
+Creating a new factor variable in the dataset with two levels ??? ???weekday??? and ???weekend??? indicating whether a given date is a weekday or weekend day.
+
+Making a panel plot containing a time series plot (i.e. type = “l”) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).
+
